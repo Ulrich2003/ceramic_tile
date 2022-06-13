@@ -1,0 +1,17 @@
+.ImgCard{
+    width: calc(100vw/3);
+    height: 20rem;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.ImgCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.ImgCard img:hover{
+    transform: scale(1.4);
+}
